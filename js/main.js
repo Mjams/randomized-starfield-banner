@@ -1,8 +1,7 @@
 var $body = $('body');
+var $star = $('<div>');
 
 for(i=0; i<75; i++) {
-  var $star = $('<div>');
-
   $star.addClass('star');
   $star.css({
     'top': Math.random() * (document.documentElement.clientHeight + 100),
